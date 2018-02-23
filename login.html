@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+ <div class="topnav" id="myTopnav">
+  <a href="sp1.html">Scratch Project</a>
+  <a href="#news">News</a>
+  <a class="active" href="login.html">Login</a>
+  <a href="index.html">Home</a>
+</div>
+<script src"index.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAIbXhSYBCQt52sc8DGcAE8zxUE3ALac3M",
+    authDomain: "just-an-auth-test.firebaseapp.com",
+    databaseURL: "https://just-an-auth-test.firebaseio.com",
+    projectId: "just-an-auth-test",
+    storageBucket: "just-an-auth-test.appspot.com",
+    messagingSenderId: "695564154975"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="index.js"></script>
+<textArea id="email" placeholder="Email"></textArea>
+<textArea id="password" placeholder="Password"></textArea>
+<button onclick="siweap()">Sign In</button>
+  </body>
+
+</html>
+hallo
